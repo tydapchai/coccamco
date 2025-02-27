@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@350;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@350;600;900&display=swap" rel="stylesheet">
+    <title>Billiards Tournament</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+
+            </div>
+            <div class="nav-links">
+                <a href="#hero">Trang Chủ</a>
+                <a href="#prize">Giải Thưởng</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#">Quy Định Chung</a>
+                <button class="cta-button">THAM GIA NGAY</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Giải Đấu Billiards</h2>
+            <h1>CÓC CẦM CƠ - II</h1>
+            <p>Một Giải Đấu Billiards Được Khởi Xướng Thường Kỳ Do Tổ Chức Cóc Cầm Cơ Thực Hiện, Nhằm Mang Lại Một Môi
+                Trường Thi Đấu Chuyên Nghiệp, Lành Mạnh, Văn Minh.</p>
+            <button class="cta-button large">THAM GIA NGAY</button>
+        </div>
+        <div class="hero-image">
+            <img src="images/flaming-8ball.png" alt="Flaming 8 Ball">
+        </div>
+    </main>
+
+    <section id="prize" class="prize-section">
+        <div class="trophy">
+            <img src="images/trophy.png" alt="Trophy">
+        </div>
+        <div class="prize-content">
+            <h2>Tổng Giá Trị Giải Thưởng</h2>
+            <div class="prize-amount">3.0M<span>VNĐ</span></div>
+            <p>Cùng Nhiều Kỷ Niệm Chương Và Các Phần Quà Giá Trị Khác</p>
+            <div class="prize-buttons">
+                <button class="outline-button">Cơ cấu giải thưởng</button>
+                <button class="outline-button">Quy định giải đấu</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-session">
+        <h1 class="about-title">Cóc Cầm Cơ Mùa 1</h1>
+        <div class="about-image">
+            <img src="https://placehold.co/1200x400/gray/white" alt="about-image" class="about-image">
+        </div>
+        <div class="stats-container">
+            <div class="stat-item">
+                <div id="stat" class="stat-number">10</div>
+                <span class="stat-label">Trường đại học, cao đẳng</span>
+            </div>
+            <div class="stat-item">
+                <div id="stat" class="stat-number">48</div>
+                <span class="stat-label">Thí sinh</span>
+            </div>
+            <div class="stat-item">
+                <div id="stat" class="stat-number">1.6M</div>
+                <span class="stat-label">Tổng giá trị giải thưởng</span>
+            </div>
+        </div>
+
+        <div class="slogan-image">
+            <img src="images/slogan.png" alt="slogan-image" class="slogan-image">
+        </div>
+    </section>
+    <section id="timeline" class="timeline-section">
+        <h1 class="timeline-title">Timeline</h1>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="date">22/12/2023</div>
+                <h2>Giai đoạn đăng ký & thanh toán:</h2>
+                <p>Các thí sinh đăng ký thi đấu truy cập trang web coccamco.web.app/register để tiến hành gửi đơn và
+                    trang coccamco.web.app/player-info để thanh toán tiền vé tham gia thi đấu.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="date">22/12/2023</div>
+                <h2>Giai đoạn đăng ký & thanh toán:</h2>
+                <p>Các thí sinh đăng ký dự thi truy cập trang web coccamco.web.app/register để tiến hành gửi đơn và
+                    trang coccamco.web.app/player-info để thanh toán tiền vé tham gia thi đấu.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="date">22/12/2023</div>
+                <h2>Giai đoạn đăng ký & thanh toán:</h2>
+                <p>Các thí sinh đăng ký dự thi truy cập trang web coccamco.web.app/register để tiến hành gửi đơn và
+                    trang coccamco.web.app/player-info để thanh toán tiền vé tham gia thi đấu.</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="date">22/12/2023</div>
+                <h2>Giai đoạn đăng ký & thanh toán:</h2>
+                <p>Các thí sinh đăng ký dự thi truy cập trang web coccamco.web.app/register để tiến hành gửi đơn và
+                    trang coccamco.web.app/player-info để thanh toán tiền vé tham gia thi đấu.</p>
+            </div>
+        </div>
+    </section>
+    <section id="countdown" class="countdown-section">
+        <div class="countdown-container">
+            <h1>Thời gian đăng ký còn</h1>
+
+            <div class="card">
+                <div id="expired-message" class="expired" style="display: none;">Register time is over</div>
+
+                <div id="countdown-timer" class="timer">
+                    <div class="time-block">
+                        <div id="days" class="time-value">00</div>
+                        <span class="time-label">Ngày</span>
+                    </div>
+                    <div class="time-block">
+                        <div id="hours" class="time-value">00</div>
+                        <span class="time-label">Giờ</span>
+                    </div>
+                    <div class="time-block">
+                        <div id="minutes" class="time-value">00</div>
+                        <span class="time-label">Phút</span>
+                    </div>
+                    <div class="time-block">
+                        <div id="seconds" class="time-value">00</div>
+                        <span class="time-label">Giây</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
