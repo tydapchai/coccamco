@@ -1,4 +1,4 @@
-#Giới thiệu
+
 Cóc Cầm Cơ là tổ chức phi lợi nhuận do sinh viên FPT thành lập đây chỉ là 1 phần của dự án về Front End của trang web do tôi thực hiện.
 
 Thông tin chi tiết hơn về project chính https://github.com/mndkhanh/CocCamCo
